@@ -4,7 +4,7 @@ Donate link: https://services.dwbooster.com/pricing
 Tags: button,design,script,css,blocks,code,payment,donation
 Requires at least: 3.0.5
 Tested up to: 6.8
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -252,3 +252,6 @@ A: Yes, the premium blocks will continue working even after the license expires.
 
 = 1.1.1 =
 * Resolves a notice by ensuring the language files are properly loaded.
+
+= 1.1.2 =
+* Modifies the CFF integration.

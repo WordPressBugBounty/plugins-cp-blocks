@@ -6,11 +6,11 @@ if(fbuilderjQuery)
 		function()
 		{
             var $ = fbuilderjQuery,
-				btn = '<div id="blocks_inserter" class="button itemForm width40" onclick="jQuery(document).trigger(\'load_blocks_module\',\'cff\');">Insert Blocks</div>';
+				btn = '<div id="blocks_inserter" class="button itemForm width48" onclick="jQuery(document).trigger(\'load_blocks_module\',\'cff\');">Insert Blocks</div>';
 
             (function replaceMessage()
             {
-                var cpb = $('.complementary-blocks-category');
+                var cpb = $('.complementary-blocks-category').closest('.category-description');
                 if(cpb.length)
                 {
                     cpb.replaceWith(btn);
