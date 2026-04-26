@@ -3,7 +3,7 @@
 Plugin Name: CP Blocks
 Plugin URI: https://services.dwbooster.com/pricing
 Description: CP Blocks helps to insert blocks of code and styles
-Version: 1.1.2
+Version: 1.1.3
 Author: CodePeople
 Author URI: https://wordpress.dwbooster.com
 License: GPL
@@ -31,7 +31,7 @@ if ( ! function_exists( 'cp_blocks_troubleshoot' ) ) {
 }
 
 define( 'CPBLOCKSXT_SERVICE_URL', 'https://services.dwbooster.com/' );
-define( 'CPBLOCKSXT_BLOCKS_VERSION', '1.1.2' );
+define( 'CPBLOCKSXT_BLOCKS_VERSION', '1.1.3' );
 define( 'CPBLOCKSXT_LOCAL_PATH', plugin_dir_path( __DIR__ ) . 'server-side-blocks' );
 
 // Feedback system

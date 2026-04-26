@@ -50,6 +50,8 @@ if(fbuilderjQuery)
 					{
 						var code = '<!--'+block.id+'-->'+block.code+'<!--END_'+block.id+'-->',
 							fhtml = cff_form.fBuild.addItem('fhtml');
+						fhtml.allowscript = 1;
+						fhtml.advanced = {"css": {"container": {"label": "Field container div tag", "rules": {"z-index": "0"}}}};	
 						fhtml.fcontent = code;
 						$.fbuilder.reloadItems({field:fhtml});
 					}
