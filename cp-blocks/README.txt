@@ -3,7 +3,7 @@ Contributors: codepeople
 Donate link: https://services.dwbooster.com/pricing
 Tags: button,design,script,css,blocks,code,payment,donation
 Requires at least: 3.0.5
-Tested up to: 6.8
+Tested up to: 7.1
 Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
